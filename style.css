@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1{
+  color:rgb(57, 46, 4);
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.icon-big{
+font-size: 30px;
+
+}
+
+.link-blank {
+  text-decoration: none;
+
+  color: rgba(209, 42, 201, 0.752);
+  font-family: "PT Serif", serif;
+  font-weight: 300;
+  font-size :30px;
+  font-style: italic
+}
+h2{
+  color:rgb(127, 129, 247) ;
+  font-family: "PT Serif", serif;
+  font-weight: 200;
+  font-size :35px;
+  font-style: italic;
+}
+
+body {
+  text-align: center;
+}
+
+a:hover {
+  color: black;
+}
+
+.img-circle {
+  border-radius: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  border: 1px solid;
+  background-color: pink;
+  border-color: rgb(75, 204, 211);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 11px rgb(0, 0, 0);
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 20px auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+html {
+  background-image: url("./images/images.jpeg");
+}
